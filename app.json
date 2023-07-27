@@ -1,0 +1,51 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/temp/temp",
+        "pages/huminity/huminity",
+        "pages/CO2/CO2",
+        "pages/sun/sun"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarTextStyle": "black"
+    },
+
+    "tabBar": {
+    "list": [
+      {"pagePath":"pages/index/index",
+        "text": "天气",
+        "iconPath": "/images/weather.jpg",
+        "selectedIconPath": "/images/weather.jpg"
+      },
+      {
+        "pagePath":"pages/temp/temp",
+        "text": "温度",
+        "iconPath": "/images/temp.png",
+        "selectedIconPath": "/images/temp.png"
+      },
+      {
+        "pagePath":"pages/huminity/huminity",
+        "text": "湿度",
+        "iconPath": "/images/humity.png",
+        "selectedIconPath": "/images/humity.png"
+      },
+      {
+        "pagePath":"pages/CO2/CO2",
+        "text": "CO2",
+        "iconPath": "/images/co2.png",
+        "selectedIconPath": "/images/co2.png"
+      },
+      {
+        "pagePath":"pages/sun/sun",
+        "text": "光照",
+        "iconPath": "/images/sun.png",
+        "selectedIconPath": "/images/sun.png"
+      }
+    ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}
